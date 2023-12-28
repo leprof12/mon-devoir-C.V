@@ -1,0 +1,85 @@
+body{background-color: #782221;
+    font-family: lato,releway,sans-serif;
+    width: 1160px;
+    display: block;
+    border-style: solid;
+    border-right-width: 300px;
+    border-left-width: 500px;
+    border-right-color: aliceblue;
+    border-left-color: aliceblue;
+    margin-left: 300px;
+    margin-right: 200px;
+    align-items: justify;
+font-family:relaway black;}
+/*caracteriser les titres */
+h1{color: azure;
+text-align: center;}
+h2,h3,strong{color:#000000;
+    font-family: lato black;}
+    /*centrer l'image sur la page*/
+header{display: inline-block;
+padding-left: 400Px;
+padding-right: 0Px;
+padding-bottom: 0px;
+padding-top: 0px;
+margin: 20px;
+margin-bottom: 10px;
+margin-top: 10px;}
+#img>header{drop-shadow:white;}
+zoom img{width: 200px;height: 300px;}
+zoom img:hover{width: 300px;height: 400px;}
+/*placer l'adresse,surtout les liens*/
+div{background-color: #2c1d27;
+display:flex;
+padding-left:  60px;
+padding-top: 10px;
+margin: 1px;
+height: 90px;
+line-height: normal;
+width: 1100px;}
+/*l'adresse porter par un tableau et centrer*/
+table{border-collapse:separate;
+border-spacing:20px}
+tr{border:solid#2c1d27;}
+td{padding-left:80px;
+padding-right: 120px;}
+/*l'essentiel du cv: aside et section*/
+article{display: flex;
+    height: 1300px;px;
+    width: 1040px;
+    text-align: justify;
+    margin-top:0px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-items:stretch;
+    flex-direction:column;}
+aside{width:300px;
+    padding-left: 20px;
+    padding-right: 5px;
+    justify-content:center;}
+    span{padding-left: 20px;
+    padding-right: 20px;}
+section{width: 755px;
+    border-right:solid;
+    background-color: aliceblue;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20Px;
+}
+/*couleur de fond petit titre2*/
+h2{background-color: #dbc2a4;
+padding-left: 20px;
+border-style:solid;
+border-color: #dbc2a4;
+border-left-color:#782221;
+border-left-width:10px;}
+h2:hover{color:rgb(197, 74, 70)}
+/*les liens des reseaux sociaux en fin de page*/
+footer{display:flex;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-top: 0Px;
+    width: 400px;
+    }
